@@ -4,4 +4,4 @@ For our homework assignment we chose to make a Generative Adversarial Network. O
 
 As we are making a GAN we don't need training and validation set for the images. Also we don't need preprocessing, because than the images would need to be transformed in the results as well.
 
-To run the .ipynb file it should be in the same folder as the "pokemon" folder, which contains th images.
+To run the .ipynb file it should be in the same folder as the "pokemon" folder, which contains the images.
