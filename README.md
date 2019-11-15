@@ -20,7 +20,7 @@ The discriminators loss function is the binary-crossentropy of the output probab
 It is an option to fix the discriminators weights in the adversarial model, so we only update the generators weights. We tried training the model with fixed and not fixed weights as well. 
 We tried two training strategies:
 1. In each epoch we train the discriminator and the adversarial both.
-2. In each epoch we choose which model to train based on their accuracies. (We train only the "weaker" model) - in this case each model is trained until it is as "good" as the other.
+2. In each epoch we choose which model to train based on their accuracies. (We train only the "weaker" model) - in this case each model is trained until it performs as "good" as the other.
 ### Testing Hyperparameters
 We tried mutliple optimizers: adam and rmsprop. Our results can be found in the train1 results folder.
 Naming conventions:
