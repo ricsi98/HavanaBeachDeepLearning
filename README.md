@@ -14,10 +14,10 @@ To run the .ipynb file it should be in the same folder as the "pokemon" folder, 
 
 ## Second Assignment
 ### Model architecture
-We built our model based on the [DCGAN](https://arxiv.org/pdf/1511.06434.pdf) architecture. The model has a generator and a discriminator network. We feed a noise (gaussion) vector into the generator network as its input and the output is a 64x64 RGB image. The discriminators input is a 64x64 RGB image and the output is the probability that the input is real.
+We built our model based on the [DCGAN](https://arxiv.org/pdf/1511.06434.pdf) architecture. The model has a generator and a discriminator network. We feed a noise (gaussian) vector into the generator network as its input and the output is a 64x64 RGB image. The discriminators input is a 64x64 RGB image and the output is the probability that the input is real.
 ### Training
 The discriminators loss function is the binary-crossentropy of the output probability and the real values (1 or 0). To train the generator we feed the generators output to the discriminator (we call the combined model adverarial) and based on the previous loss we propagate back the error to the generator. 
-It is an option to fix the discriminators weights in the adversarial model, so we only update the generators weights. We tried training the model with fixed and not fixed weights. 
+It is an option to fix the discriminators weights in the adversarial model, so we only update the generators weights. We tried training the model with fixed and not fixed weights as well. 
 We tried two training strategies:
 1. In each epoch we train the discriminator and the adversarial both.
 2. In each epoch we choose which model to train based on their accuracies. (We train only the "weaker" model) - in this case each model is trained until it is as "good" as the other.
