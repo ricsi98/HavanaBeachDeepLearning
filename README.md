@@ -42,7 +42,7 @@ To get enough input images we have augmented the images in the "pokemon_small" f
 ### Results
 #### VAE/AAE:
 The name of the images: [modell name] [imagesize]x[imagesize] [epoch size]e [sep?] [aug/small]
-Where the aug/small tells if we traind it on the pokemon_small or the augmented data, and sep means we used the 2. strategy during the a
+Where the aug/small tells if we trained it on the pokemon_small or the augmented data, and sep means we used the 2. strategy during the a
 AAE training.
 #### WGAN:
-
+The images are in two folders based on the training data (one was maed by the basic dataset and the other by the augmented), they are in ascending order of the epochs.
