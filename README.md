@@ -1,4 +1,8 @@
 # HavanaBeachDeepLearning
+Members:
+Kiss Richárd  (KAYXFT)
+Pogány Domonkos (D8AFH4)
+Sándor Dániel (F193CB)
 
 ## First Assignment
 For our homework assignment we chose to make a Generative Adversarial Network. Our main goal is to generate pokemons, based on the following dataset: https://www.kaggle.com/kvpratama/pokemon-images-dataset/data. As a possible improvement we would try to make a network that is able to generate pokemons based on drawings, by users.
@@ -29,3 +33,7 @@ Naming conventions:
 * separately - we used the 1. strategy during training.
 * GXM and DXM - D stands for the discriminator, G is the generator. XM means the model has X Million weights.
 * the name of the image files specifies the training epoch count.
+
+## Third (final) Assignment
+## New models
+We tried several other approaches, like WGAN, VAE, AAE. You can read more about it in the documentation pdf.
