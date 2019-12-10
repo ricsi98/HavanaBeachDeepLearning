@@ -44,5 +44,5 @@ To get enough input images we have augmented the images in the "pokemon_small" f
 The name of the images: [modell name] [imagesize]x[imagesize] [epoch size]e [sep?] [aug/small]
 Where the aug/small tells if we traind it on the pokemon_small or the augmented data, and sep means we used the 2. strategy during the a
 AAE training.
-### WGAN:
+#### WGAN:
 
