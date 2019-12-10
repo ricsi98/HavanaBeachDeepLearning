@@ -37,7 +37,11 @@ Naming conventions:
 ## Third (final) Assignment
 ### New models
 We tried several other approaches, like WGAN, VAE, AAE. You can read more about it in the documentation pdf.
+### New data
+To have enough input images we have augmented the images in the "pokemon_small" folder, the new images are found in the "augmented" folder
 ### Results
 #### VAE/AAE:
 The name of the images: [modell name] [imagesize]x[imagesize] [epoch size]e [aug/small]
 Where the aug/small tells if we traind it on the pokemon_small or the augmented data.
+### WGAN:
+
