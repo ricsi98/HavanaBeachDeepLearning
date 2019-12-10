@@ -46,3 +46,6 @@ Where the aug/small tells if we trained it on the pokemon_small or the augmented
 AAE training.
 #### WGAN:
 The images are in two folders based on the training data (one was maed by the basic dataset and the other by the augmented), they are in ascending order of the epochs.
+
+### Running models
+The pokemon_small or augmented folders should be placed next to the .ipynb files. Upload to google colab to try the models!
