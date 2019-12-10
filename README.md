@@ -30,10 +30,14 @@ We tried mutliple optimizers: adam and rmsprop. Our results can be found in the 
 Naming conventions:
 * no train - the discriminators weigths are fixed in the adversarial model.
 * train - the discriminators weigths are NOT fixed in the adversarial model.
-* separately - we used the 1. strategy during training.
+* separately - we used the 2. strategy during training.
 * GXM and DXM - D stands for the discriminator, G is the generator. XM means the model has X Million weights.
 * the name of the image files specifies the training epoch count.
 
 ## Third (final) Assignment
-## New models
+### New models
 We tried several other approaches, like WGAN, VAE, AAE. You can read more about it in the documentation pdf.
+### Results
+#### VAE/AAE:
+The name of the images: [modell name] [imagesize]x[imagesize] [epoch size]e [aug/small]
+Where the aug/small tells if we traind it on the pokemon_small or the augmented data.
